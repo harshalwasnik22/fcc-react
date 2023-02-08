@@ -6,19 +6,22 @@ import Sponsors from './pages/sponsors/sponsors'
 import Services from './pages/services/services'
 import Team from './pages/team/team'
 import Footer from './pages/footer/footer'
+import Navbar from './components/navbar/navbar'
 
 
 
 const App = () => {
   return (
     <div>
+      <Navbar />
       <Home />
       <About />
-      <Events />
       <Services/>
+      <Events />
       <Sponsors /> 
       <Team />
       <Footer />
+    app
     </div>
   )
 }
